@@ -1,0 +1,7 @@
+{
+  "name": "MODO Firenze | Yoga & Pilates Studio",
+  "description": "Un sito web multi-pagina elegante e premium per uno studio di Yoga e Pilates di lusso a Firenze, Italia.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
