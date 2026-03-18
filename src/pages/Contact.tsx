@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <h4 className="text-xl font-serif">Chiamaci</h4>
                 <p className="text-sm text-modo-ink/60 leading-relaxed">
-                  +39 055 123 4567<br />
+                  +39 055 123 ****<br />
                   Lun-Ven: 07:00 - 21:00
                 </p>
               </div>
@@ -117,15 +117,15 @@ export default function Contact() {
 
       {/* Map Section */}
       <section className="max-w-7xl mx-auto px-6">
-        <div className="h-[500px] rounded-[64px] overflow-hidden bg-modo-cream relative">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center space-y-4">
-              <MapPin className="w-12 h-12 text-modo-sage mx-auto" />
-              <p className="font-serif text-2xl">Segnaposto Mappa Interattiva</p>
-              <p className="text-modo-ink/40 text-sm">Situato nel centro storico di Firenze</p>
-            </div>
-          </div>
-          {/* In a real app, you'd embed a Google Map here */}
+        <div className="h-[500px] rounded-[64px] overflow-hidden relative">
+          <iframe
+            title="MODO Firenze Location"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=11.2418%2C43.7645%2C11.2618%2C43.7779&layer=mapnik&marker=43.7712%2C11.2518"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+          />
         </div>
       </section>
     </div>
